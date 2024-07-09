@@ -1,0 +1,30 @@
+.menu{
+    background-color: #2d6df6;
+}
+
+.banner{
+    background-image: url("../img/banner.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25%;
+}
+
+.botonChat{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.cajaChat{
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+    border-radius: 40px;
+    z-index: 1;
+    }
