@@ -25,6 +25,13 @@
     height: 400px;
     background-color: white;
     border: 1px solid #e7e7e7;
-    border-radius: 40px;
+    border-radius: 10px;
     z-index: 1;
+    }
+
+    .textoChat{
+        position: absolute;
+        bottom: 0;
+        width: 95%;
+
     }
