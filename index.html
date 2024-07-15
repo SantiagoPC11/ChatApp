@@ -19,7 +19,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -33,6 +33,18 @@
                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>
               </li>
             </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="avatar" role="button" data-bs-toggle="dropdown"></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#" id="botonSalir">Salir</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mt-2"><i class="bi bi-person-circle text-white fw-bold mt-5 fs-2"></i></li>
+
+            </ul>
           </div>
         </div>
       </nav>
@@ -40,7 +52,9 @@
 
 <main>
 
-<div class="banner"></div>
+<div class="banner">
+  <iframe width="500px" height="500px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=_tQLPBERE02ODHwzuet1gclyAv88vTVJtNyHNJGg_t5UNlNUVlBJMDFFUE9WNTE1MUI3N1pET1g3Vi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+</div>
 
 <button class="btn btn-primary botonChat" id="botonChat" onclick="cambiarCaja()">ChatApp</button>
 
@@ -88,9 +102,44 @@
 </main>
  
 <footer>
+  <section class="container-fluid justify-content-center text-center bg-primary">
 
+    <div class="row">
+      <div class="col-4 border-end"><h3 class="text-white">ChatApp</h3>
+        <img src="./assets/img/logoChat.png" alt="logochat" width="200">
+      </div>
+      <div class="col-4 border-end"><h3 class="text-white">SURA
+              </h3>
+              <img src="./assets/img/logoSura.png" alt="logosura" width="100">
+              <a href="https://github.com/SantiagoPC11" target="_blank"><button class="btn btn-primary ">IR</button></a>
+              <br>
+              <br>
+              <br>
+              <img src="./assets/img/logoSura.png" alt="logosura" width="100">
+              <a href="https://github.com/SantiagoPC11" target="_blank"><button class="btn btn-primary ">IR</button></a>
+              <br>
+              <br>
+              <br>
+              <img src="./assets/img/logoSura.png" alt="logosura" width="100">
+              <a href="https://github.com/SantiagoPC11" target="_blank"><button class="btn btn-primary ">IR</button></a>
+
+      </div>
+      <div class="col-4"><h3 class="text-white">Acerca De</h3>
+
+        <a href="https://github.com/SantiagoPC11" target="_blank"><i class="bi bi-github fs-2 text-white"></i></a>
+        <a href="https://github.com/SantiagoPC11" target="_blank"><button class="btn btn-primary ">IR</button></a>
+      <p class="text-white">Todos los derechos Reservados</p>
+      <p class="text-white">¿Por qué estudio esta técnica? Me ha permitido aumentar mi lógica no sólo en temas de programación sino en mis actividades laborales diarias, además, lo veo como una puerta de entrada a oportunidades profesionales, y así, evolucionar mi portafolio laboral.</p>
+    </div>
+    </div>
+  
+  
+  </section>
+
+
+</div>
 </footer>
-
+<script src="./src/controllers/controladorSalida.js" type="module"></script>
 <script src="./src/controllers/controlador.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
