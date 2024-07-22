@@ -27,6 +27,7 @@
     border: 1px solid #e7e7e7;
     border-radius: 10px;
     z-index: 1;
+    display: none;
     }
 
     .textoChat{
@@ -34,4 +35,21 @@
         bottom: 0;
         width: 95%;
 
+    }
+
+    .mensajeChat{
+        overflow-y: auto;
+        height: 80%;
+        padding-bottom: 20px;
+    }
+
+    .areaTextoChat{
+        position: absolute;
+        bottom: opx;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .botonSend{
+        cursor: pointer;
     }
